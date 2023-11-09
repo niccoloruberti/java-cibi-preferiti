@@ -15,5 +15,8 @@ public class CibiPreferiti {
 		
 		//stampo l'ultimo cibo preferito
 		System.out.println("L'ultimo cibo preferito è: " + favouriteFoods[favouriteFoods.length - 1]);
+		
+		//stampo il cibo che si trova a mezza classifica
+		System.out.println("Il cibo a metà classifica è: " + favouriteFoods[favouriteFoods.length / 2]);
 	}
 }
